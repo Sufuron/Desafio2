@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Arial", sans-serif;
+}
+
+.bg-primary {
+  overflow: auto;
+  position: relative;
+  box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.199);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: -0.4rem;
+  width: 100%;
+}
+
+.bg-primary:hover {
+  box-shadow: 13px 15px 37px rgba(173, 216, 230, 0.61);
+}
+
+.bg-primary img {
+  width: 100%;
+  opacity: calc(0.92);
+}
+
+.bg-primary h1 {
+  font-size: 2rem;
+  color: rgb(1, 0, 56);
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  text-shadow: 3 3 3px rgb(255, 255, 255);
+}
+
+h2 {
+  font-size: 3rem;  
+  text-align: center;
+  margin: 3rem;
+}
+
+#columna {
+  margin: 20px 200px;
+}
+
+.productos img {
+  width: 120%;
+}
+
+div#dron1 {
+  width: 400px;
+}
+div#dron2 {
+  width: 400px;
+}
+div#dron3 {
+  width: 400px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(155, 141, 21, 0.733);
+  color: white;
+  text-align: center;
+}
+
+#texto-lateral1 {
+  position: relative;
+  left: 70px;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 60px;
+}
