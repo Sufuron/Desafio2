@@ -32,7 +32,7 @@ body {
 }
 
 h2 {
-  font-size: 3rem;  
+  font-size: 3rem;
   text-align: center;
   margin: 3rem;
 }
@@ -66,9 +66,14 @@ div#dron3 {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(155, 141, 21, 0.733);
+  background-color: rgb(155, 141, 21);
   color: white;
   text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  padding: 10px;
 }
 
 #texto-lateral1 {
